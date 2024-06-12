@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/girisYapStyle.css" />
+  </head>
+  <body>
+    <nav class="menu-nav">
+      <div class="menu-h1">
+        <h1><a href="index.html">Javascipt</a></h1>
+      </div>
+      <div class="menu-ul">
+        <ul>
+          <li><a href="algoritmaSorulari.html">Algoritma Soruları</a></li>
+          <li><a href="jsKonulari.html">Javascipt Konuları</a></li>
+          <li><a href="girisYap.html">Giriş Yap</a></li>
+          <li><a href="kayitOl.html">Kayıt Ol</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="login-section">
+        <img src="image/login-register.png" alt="" />
+        <form class="login" id="login">
+          <h3>Kullanıcı Adı</h3>
+          <input
+            id="user-name"
+            type="text"
+            placeholder="Kullanıcı Adınızı Girin"
+          />
+          <h3>Şifre</h3>
+          <input id="password" type="password" placeholder="Şifrenizi Girin" />
+          <p id="warning" class="hidden"></p>
+          <button type="submit" id="login-button">Giriş Yap</button>
+        </form>
+      </section>
+    </main>
+    <script src="script/girisYapScript.js"></script>
+  </body>
+</html>

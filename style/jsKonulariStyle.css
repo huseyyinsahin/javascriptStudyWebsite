@@ -1,0 +1,48 @@
+/* genel değişiklikler */
+body {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.menu-nav {
+  border-bottom: 0px solid white;
+}
+
+/* js konuları section */
+.left-section {
+  width: 250px;
+  height: 87vh;
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #e7e9eb;
+}
+.left-section::-webkit-scrollbar {
+  width: 10px;
+}
+.left-section::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.left-section::-webkit-scrollbar-thumb {
+  background: #bababa;
+  border-radius: 10px;
+}
+.left-section::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.left-section h3 {
+  font-size: 25px;
+  margin: 7px 0px;
+}
+.left-section p {
+  margin-bottom: 3px;
+  padding: 5px;
+  width: 250px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+}
+.left-section p:hover {
+  background-color: rgb(215, 215, 215);
+}
