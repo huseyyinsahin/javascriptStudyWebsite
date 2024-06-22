@@ -1,2 +1,2 @@
-HTML - CSS - JAVASCRİPT
+HTML - CSS - JAVASCRİPT <br>
 https://huseyyinsahin.github.io/javascriptStudyWebsite/
